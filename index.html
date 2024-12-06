@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ramesh M</span><br> Web Designer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/ramesh-m-75aa95280" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/ramesh2815/Ramesh-M" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.instagram.com/r.a.m.e.s.h__m" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 550">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" y="5" x="30" href="./img/profile2.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./img/profile.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Ramesh</h2>
+                        <p class="about__text">Welcome to my portfolio! I'm Ramesh, a Web Developer with a deep passion for IT industry. With a foundation built on Masters, I've honed my skills in frontend projects. I'm dedicated to delivering exceptional results. My journey in Web Developer has been characterized by a relentless pursuit of excellence and a commitment to pushing creative boundaries. Through this portfolio, I aim to showcase not just my work, but the dedication and craftsmanship that underpin it. Join me on this journey as we explore the intersection of creativity, innovation, and web developing expertise. Let's turn ideas into reality and bring your vision to life together!</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">As a dedicated professional, I possess a diverse set of skills that enable me to excel in various aspects of my work</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i style="color:#147bbc" class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i style="color:#c95d2e" class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i style="color:#b0bc1e" class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i style="color:#b0bc1e" class='bx bxl-react skills__icon' ></i>
+                                <span class="skills__name">React</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i style="color:green" class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== projects =====-->
+            <section class="work section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="row">
+                    <div class="column">
+                        <h2>Admission Management System</h2>
+                       <p>
+                        Implemented a Login Page for applicants to check their admission application status.
+                        Designed an Admin Dashboard to manage and review admission registrations.
+                        Frontend: Built with React.js for responsiveness.
+                        Backend: Developed RESTful APIs using Java Spring Boot.
+                        Database: Used MySQL for secure data management.</p>
+                    </div>
+                    <div class="column">    
+                        <h2>Clone Music player</h2>
+                        <p>Our music player project, built with HTML, CSS, and JavaScript, is a tribute to Spotify. Mimicking its interface and features, including customizable playlists and dynamic recommendations, it offers seamless playback and navigation. Through this clone web application, we highlight the capabilities of web technologies in delivering a premium music streaming experience.</p>
+                        <button><a href="https://thiru0805.github.io/Music-player/">Live Link</a></button>
+                    </div>
+                    <div class="column">
+                        <h2>Simple UI Tourist Website</h2>
+                        <p>Our tourist website boasts a simple and user-friendly interface, perfect for travelers seeking quick information. With a clean layout and intuitive navigation, it offers insights into popular destinations, attractions, and practical travel tips. Simplifying the planning process, it's your go-to guide for memorable adventures, hassle-free.</p>
+                        <button><a href="https://thiru0805.github.io/Simple-UI-Tourist-Website/">Live Link</a></button>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" id="name">
+                        <input type="mail" placeholder="Email" class="contact__input" id="email">
+                        <textarea name="" id="details" placeholder="Message" cols="0" rows="10" class="contact__input"  ></textarea>
+                        <input type="button" value="Send" class="contact__button button" id="sendBtn">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Ramesh</p>
+            <div class="footer__social">
+                <a href="https://github.com/ramesh2815/Ramesh-M" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/ramesh-m-75aa95280" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/r.a.m.e.s.h__m" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p class="footer__copy"> @Thisa 2024, All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
